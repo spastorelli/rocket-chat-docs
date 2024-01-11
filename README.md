@@ -13,6 +13,8 @@ As of December 15, 2023, Rocket.Chat has ceased support for connections from clo
 * **Compliance**: Meet stringent data protection standards with a platform that supports GDPR, HIPAA, FINRA, FedRAMP, and more.
 * **Collaboration**: Unify your communication with features that connect colleagues, businesses, and customers across various channels in real-time.
 
+[Private Space in other org](https://app.gitbook-staging.com/o/xks2mnJ2MRqQXubcX3u7/s/Toa5nNlqEqXfYl4pUfec/ "mention")
+
 [Private Space](https://app.gitbook-staging.com/o/4azjOanrNwFQhRlJOYon/s/j2JRIFj8cVOzPSNEWvhb/ "mention")
 
 ### Private space from a different org
