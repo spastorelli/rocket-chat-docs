@@ -23,6 +23,12 @@ Linking to a [public](https://app.gitbook-staging.com/s/wUQBaqZX1kOoy9v7UWmG/) s
 
 testing
 
+## Adding a new section to test imports
+
+To test imports.
+
+Adding a link to [private](https://app.gitbook-staging.com/o/4azjOanrNwFQhRlJOYon/s/j2JRIFj8cVOzPSNEWvhb/) space and another one to a [public](https://app.gitbook-staging.com/s/wUQBaqZX1kOoy9v7UWmG/) space.
+
 ### **Product and Security Offerings**
 
 * [**Team collaboration**](use-rocket.chat/workspace-administration/) - A single point for secure internal and cross-company collaboration.
