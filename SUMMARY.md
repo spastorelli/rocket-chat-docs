@@ -2,6 +2,7 @@
 
 * [Rocket.Chat](README.md)
   * [Our Plans](readme/our-plans.md)
+  * [Our strategy](readme/our-strategy.md)
 
 ## Deploy
 
