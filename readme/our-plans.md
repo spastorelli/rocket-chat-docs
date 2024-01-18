@@ -25,6 +25,21 @@ The Rocket.Chat [**Enterprise Plan**](../setup-and-configure/trials/enterprise-t
 * **Large Enterprises**: Organizations requiring a robust, scalable, and compliant communication platform.
 * **High Compliance Industries**: Ideal for sectors with stringent regulatory requirements, such as finance, healthcare, and government.
 
+* **Key Features:**
+
+* **Large-Scale Capacity**: Tailored for extensive, compliance-focused environments.
+* **Advanced Capabilities**: Includes support for multiple server instances, microservices architecture, and sophisticated user management with an option to add [guest users](../use-rocket.chat/workspace-administration/users/guest-users.md), enhancing flexibility for varied communication needs.
+* **Compliance Tools**: Enhanced tools for meeting regulatory and compliance standards.
+* **Customization and Integration**: Greater flexibility in customization and integration with existing systems.
+* **Priority Support**: Access to priority support and dedicated account management.
+* **Hosting**: Standard, Premium, and Dedicated SaaS hosting.
+* **Scalability and Reliability**: Designed for high scalability and reliability, suitable for mission-critical operations.
+
+**Ideal for:**
+
+* **Large Enterprises**: Organizations requiring a robust, scalable, and compliant communication platform.
+* **High Compliance Industries**: Ideal for sectors with stringent regulatory requirements, such as finance, healthcare, and government.
+
 ## Pro Plan&#x20;
 
 Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
