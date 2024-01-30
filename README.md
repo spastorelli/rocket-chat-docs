@@ -6,6 +6,12 @@ In a world where collaboration is the backbone of productivity, Rocket.Chat stan
 As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
 {% endhint %}
 
+In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
+
+{% hint style="info" %}
+As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
+{% endhint %}
+
 ### New section
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque ultricies venenatis. Duis quis eros eget metus auctor interdum. Mauris tempor dignissim pellentesque. Nullam congue nisi ac dui aliquam, a rutrum diam pellentesque. Morbi et dictum nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi hendrerit mollis lobortis. Nam viverra laoreet libero, eget fermentum diam rutrum quis. Duis quam justo, sollicitudin sit amet mi ut, pulvinar tristique ex. Suspendisse tempor nulla a dui vehicula, et venenatis eros volutpat. Quisque vitae viverra risus, at feugiat arcu.
