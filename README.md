@@ -13,6 +13,13 @@ As of December 15, 2023, Rocket.Chat has ceased support for connections from clo
 * **Compliance**: Meet stringent data protection standards with a platform that supports GDPR, HIPAA, FINRA, FedRAMP, and more.
 * **Collaboration**: Unify your communication with features that connect colleagues, businesses, and customers across various channels in real-time.
 
+### **Why Rocket.Chat?**
+
+* **Ownership**: Your data stays yours. With Rocket.Chat, you enjoy complete data sovereignty whether you choose our self-hosted or SaaS solution.
+* **Customization**: Tailor your workspace to fit your team's needs with extensive customization options and a wide range of apps and integrations.
+* **Compliance**: Meet stringent data protection standards with a platform that supports GDPR, HIPAA, FINRA, FedRAMP, and more.
+* **Collaboration**: Unify your communication with features that connect colleagues, businesses, and customers across various channels in real-time.
+
 ## Adding a new section
 
 testing
