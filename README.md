@@ -19,6 +19,17 @@ In a world where collaboration is the backbone of productivity, Rocket.Chat stan
 
 testing
 
+### **Why Rocket.Chat?**
+
+* **Ownership**: Your data stays yours. With Rocket.Chat, you enjoy complete data sovereignty whether you choose our self-hosted or SaaS solution.
+* **Customization**: Tailor your workspace to fit your team's needs with extensive customization options and a wide range of apps and integrations.
+* **Compliance**: Meet stringent data protection standards with a platform that supports GDPR, HIPAA, FINRA, FedRAMP, and more.
+* **Collaboration**: Unify your communication with features that connect colleagues, businesses, and customers across various channels in real-time.
+
+## Adding a new section
+
+testing
+
 ### **Product and Security Offerings**
 
 * [**Team collaboration**](use-rocket.chat/workspace-administration/) - A single point for secure internal and cross-company collaboration.
