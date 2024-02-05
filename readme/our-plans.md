@@ -18,6 +18,11 @@ As a leader in secure and compliant collaboration solutions, Rocket.Chat offers 
 
 <table><thead><tr><th width="107">Resized</th><th>T</th><th>Y</th></tr></thead><tbody><tr><td>fd</td><td>fsd</td><td>fsd</td></tr><tr><td>fsd</td><td>fsd</td><td>fds</td></tr><tr><td>fsd</td><td>fsd</td><td>dfsdf</td></tr></tbody></table>
 
+
+## Section 1
+
+Hello there
+
 ## Hello there
 
 This is to update on the git side.
