@@ -16,7 +16,9 @@ As a leader in secure and compliant collaboration solutions, Rocket.Chat offers 
 | D | E | F |
 | G | H | I |
 
-##
+## Hello there
+
+This is to update on the git side.
 
 ## Enterprise Plan
 
