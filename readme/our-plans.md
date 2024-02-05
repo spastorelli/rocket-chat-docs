@@ -6,8 +6,6 @@ description: Introducing our premium plans
 
 As a leader in secure and compliant collaboration solutions, Rocket.Chat offers a range of plans to suit the diverse needs of its user base. Our plans are designed to provide optimal features and flexibility for individuals and small teams to large enterprises. This document details our [**Enterprise**](our-plans.md#enterprise-plan) [**Pro**](our-plans.md#pro-plan), [**Starter**](our-plans.md#starter-plan), and [**Community**](our-plans.md#community) plans, helping you choose the best fit for your organization.
 
-
-
 <table><thead><tr><th>Test</th><th>Test 2</th><th>Test 3<select><option value="4QxfKEbpzKno" label="A" color="blue"></option><option value="RGtjTATUsWXa" label="B" color="blue"></option><option value="h6NC2zjYRCZh" label="C" color="blue"></option></select></th></tr></thead><tbody><tr><td>sfsdf</td><td>sdfsdf</td><td><span data-option="4QxfKEbpzKno">A</span></td></tr><tr><td>fsdfs</td><td>sfsdfs</td><td><span data-option="RGtjTATUsWXa">B</span></td></tr><tr><td>fsdfsdf</td><td>fsdfsdf</td><td><span data-option="h6NC2zjYRCZh">C</span></td></tr></tbody></table>
 
 | H | J | K |
@@ -15,6 +13,10 @@ As a leader in secure and compliant collaboration solutions, Rocket.Chat offers 
 | A | B | C |
 | D | E | F |
 | G | H | I |
+
+
+
+<table><thead><tr><th width="107">Resized</th><th>T</th><th>Y</th></tr></thead><tbody><tr><td>fd</td><td>fsd</td><td>fsd</td></tr><tr><td>fsd</td><td>fsd</td><td>fds</td></tr><tr><td>fsd</td><td>fsd</td><td>dfsdf</td></tr></tbody></table>
 
 ## Hello there
 
