@@ -23,6 +23,10 @@ As a leader in secure and compliant collaboration solutions, Rocket.Chat offers 
 
 Hello there
 
+## Section 2
+
+Hello there
+
 ## Hello there
 
 This is to update on the git side.
