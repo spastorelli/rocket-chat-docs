@@ -8,6 +8,16 @@ As of December 15, 2023, Rocket.Chat has ceased support for connections from clo
 
 In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
 
+
+
+In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
+
+{% hint style="info" %}
+As of December 15, 2023, Rocket.Chat has ceased support for connections from cloud services and official mobile/desktop apps to workspaces running legacy versions outside our support window. Users on unsupported legacy servers are advised to upgrade to the latest Rocket.Chat version to ensure continued access to cloud, mobile, and desktop applications. **Each Rocket.Chat version is supported for six months post-release.**
+{% endhint %}
+
+In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
+
 ### **Why Rocket.Chat?**
 
 * **Ownership**: Your data stays yours. With Rocket.Chat, you enjoy complete data sovereignty whether you choose our self-hosted or SaaS solution.
