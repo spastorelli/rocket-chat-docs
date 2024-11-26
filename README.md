@@ -8,8 +8,6 @@ As of December 15, 2023, Rocket.Chat has ceased support for connections from clo
 
 In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
 
-
-
 In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
 
 ### **Why Rocket.Chat?**
@@ -18,6 +16,10 @@ In a world where collaboration is the backbone of productivity, Rocket.Chat stan
 * **Customization**: Tailor your workspace to fit your team's needs with extensive customization options and a wide range of apps and integrations.
 * **Compliance**: Meet stringent data protection standards with a platform that supports GDPR, HIPAA, FINRA, FedRAMP, and more.
 * **Collaboration**: Unify your communication with features that connect colleagues, businesses, and customers across various channels in real-time.
+
+### How does Rocket.Chat ensure security?
+
+Rocket.Chat emphasizes security by implementing end-to-end encryption, ensuring that your conversations and data are protected from unauthorized access. Our platform supports two-factor authentication, offering an additional layer of security by requiring a second form of identification during login. Alongside these measures, Rocket.Chat includes advanced auditing capabilities, enabling you to track and analyze system activity to identify and mitigate potential security breaches. Regular security updates are also rolled out to address vulnerabilities and counteract emerging threats, ensuring that your communication environment remains secure and reliable.
 
 ## Adding a new section
 
