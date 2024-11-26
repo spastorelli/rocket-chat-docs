@@ -466,7 +466,7 @@
 
 ## Contribute to Rocket.Chat
 
-* [Contributor Code of Conduct](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/code\_of\_conduct)
+* [Contributor Code of Conduct](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/code_of_conduct)
 * [How Can I Help?](https://developer.rocket.chat/contribute-to-rocket.chat/ways-to-contribute)
 * [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs.md)
 
@@ -515,3 +515,7 @@
     * [Censorship and Harmful Content](legal-and-compliance/compliance-center/law-enforcement/censorship-and-harmful-content.md)
     * [Server Lookup](legal-and-compliance/compliance-center/law-enforcement/server-lookup.md)
   * [Historical Agreements and Policy Archive](customer-center/legal-center/historical-agreements-and-policy-archive.md)
+
+***
+
+* [Page 1](page-1.md)
