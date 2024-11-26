@@ -17,3 +17,9 @@ Furthermore, Rocket.Chat's commitment to security is evident in its regular upda
 Rocket.Chat supports a diverse range of integrations, enabling teams to connect their favorite tools and streamline communication workflows. Its omnichannel capabilities allow businesses to manage customer interactions across multiple platforms, including social media, email, and live chat, from a single interface. By centralizing communication channels, Rocket.Chat empowers teams to deliver a seamless customer experience, improve response times, and reduce the complexity of managing separate systems.
 
 Additionally, Rocket.Chat offers extensive customization options, allowing users to personalize their communication experience. Features such as custom themes, adjustable notification settings, and personalized workspaces ensure that each team member can configure the platform to best suit their working style, further boosting productivity and collaboration within organizations.
+
+
+
+#### Security and Compliance in Rocket.Chat
+
+Rocket.Chat prioritizes user security and compliance with industry standards. It offers end-to-end encryption for messages and data, ensuring that all communications remain confidential. The platform supports two-factor authentication, providing an additional layer of security for user accounts. Furthermore, Rocket.Chat complies with GDPR and other international data protection regulations, making it a reliable choice for organizations concerned with privacy and data security. This focus on security helps build trust with users and customers by safeguarding sensitive information.
