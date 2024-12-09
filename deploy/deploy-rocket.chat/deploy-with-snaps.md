@@ -1,3 +1,7 @@
+---
+if: isBetaUser
+---
+
 # Deploy with Snaps
 
 {% hint style="info" %}
@@ -10,7 +14,7 @@ Snaps are a convenient way to rapidly deploy a Rocket.Chat instance for developm
 
 Installing software on Linux can now be done easily with the use of Snaps. They are self-contained packages with all necessary files and dependencies, ensuring easy installation and updates. Deploying Rocket.Chat with Snaps offers seamless deployment on any Linux distribution, providing a secure and isolated workspace. It also auto-updates when a new version of Rocket.Chat is released.
 
-In this guide, you'll learn how to:&#x20;
+In this guide, you'll learn how to:
 
 * [Deploy Rocket.Chat using Snap](deploy-with-snaps.md#deploy-rocket.chat-with-snaps)
 * [Backup & Restore Rocket.Chat Snap data](deploy-with-snaps.md#snap-backup-and-restore)
@@ -52,7 +56,7 @@ sudo snap switch rocketchat-server --channel=4.x/stable
 
 Snap tracks allow you to keep your Rocket.Chat server up-to-date with the latest features while choosing your preferred release version.
 
-**Configuring  Rocket.Chat with Snaps**
+**Configuring Rocket.Chat with Snaps**
 
 * To see the list of snap variables to configure for your Rocket.Chat server, run the following command:
 
@@ -195,9 +199,9 @@ sudo service snap.rocketchat-server.rocketchat-server start
 
 ### **Auto SSL with Snaps**
 
-Starting from release 0.73, the snap includes Caddy, which utilizes Let's Encrypt to enable TLS protection for your communications. Snap hooks ensure easy configuration of Caddy, including proper DNS setup, before starting Caddy with Let's Encrypt support.&#x20;
+Starting from release 0.73, the snap includes Caddy, which utilizes Let's Encrypt to enable TLS protection for your communications. Snap hooks ensure easy configuration of Caddy, including proper DNS setup, before starting Caddy with Let's Encrypt support.
 
-To set up Auto SSL with Snaps for _4.x latest AMD64 snaps_ or 3_.x latest ARM64 snaps_,
+To set up Auto SSL with Snaps for _4.x latest AMD64 snaps_ or 3\_.x latest ARM64 snaps\_,
 
 * Set the `SiteUrl` to your domain using the following command, esure it is prefixed with `https`:
 
@@ -252,7 +256,7 @@ sudo systemctl restart snap.rocketchat-server.rocketchat-server.service
 sudo systemctl restart snap.rocketchat-server.rocketchat-caddy.service
 ```
 
-**To view the Caddy log,** run this command:&#x20;
+**To view the Caddy log,** run this command:
 
 ```bash
 sudo snap logs -f rocketchat-server.rocketchat-caddy
@@ -290,7 +294,7 @@ sudo snap set rocketchat-server caddy=disable
 * Replace `_caddy-url_` and `_port_` with your site information. For example, suppose I have example-domain.com directed towards my server.
 
 {% hint style="warning" %}
-&#x20;If your DNS is not working, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_.&#x20;
+If your DNS is not working, you could be instantly [throttled by Let's Encrypt](https://caddyserver.com/docs/automatic-https#testing) for _up to a week_.
 {% endhint %}
 
 * Be sure that your DNS has finished resolving **before** attempting to enable TLS. To test your DNS you can use http:
@@ -321,10 +325,8 @@ example-domain.com
 reverse_proxy localhost:3000
 ```
 
-
-
 {% hint style="info" %}
-Using an IP address will not work for automatically enabling TLS with a publicly-trusted certificate. You must use a valid hostname for a trusted certificate. See the[ official guide](https://caddyserver.com/docs/automatic-https) for more information.&#x20;
+Using an IP address will not work for automatically enabling TLS with a publicly-trusted certificate. You must use a valid hostname for a trusted certificate. See the[ official guide](https://caddyserver.com/docs/automatic-https) for more information.
 
 If you use an IP address, Caddy will still serve your site over TLS, but using a self-signed certificate.
 {% endhint %}
@@ -357,7 +359,7 @@ It is highly advised to [back up your data](deploy-with-snaps.md#snap-backup-and
 Before a major version update, check the [forum's announcement section](https://forums.rocket.chat/c/announcements/10). Major releases are often delayed by a couple of weeks to gather feedback and apply minor patches before the final release.
 {% endhint %}
 
-* To force an update, run this command**:**
+* To force an update, run this command\*\*:\*\*
 
 ```
 sudo snap refresh rocketchat-server
@@ -372,10 +374,10 @@ sudo snap switch rocketchat-server --channel=x.x/stable
 You'll then receive updates related to that track..
 
 {% hint style="info" %}
-&#x20;Learn more about track changes in this [discussion](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
+Learn more about track changes in this [discussion](https://forums.rocket.chat/t/introducing-snap-tracks/5890).
 {% endhint %}
 
-In addition to the latest track, Rocket.Chat offers three other channels: **stable**, **candidate**, and **edge**.  For more information on these channels, refer to the [official guide](https://snapcraft.io/docs/channels).
+In addition to the latest track, Rocket.Chat offers three other channels: **stable**, **candidate**, and **edge**. For more information on these channels, refer to the [official guide](https://snapcraft.io/docs/channels).
 
 * To update to a new version, execute this command:
 
@@ -383,7 +385,7 @@ In addition to the latest track, Rocket.Chat offers three other channels: **stab
 sudo snap refresh rocketchat-server --channel=x.x/stable
 ```
 
-The channel format is "**x.x/stable**," where the first "x" represents the major version, and the second "x" remains unchanged. For example, for major version 6, the channel is "**6.x/stable**," and for major version 5, it's "**5.x/stable**." In each "**6.x/stable**" channel, you will receive all minor and patch release updates specifically for that major version (in this case, major version 6).&#x20;
+The channel format is "**x.x/stable**," where the first "x" represents the major version, and the second "x" remains unchanged. For example, for major version 6, the channel is "**6.x/stable**," and for major version 5, it's "**5.x/stable**." In each "**6.x/stable**" channel, you will receive all minor and patch release updates specifically for that major version (in this case, major version 6).
 
 {% hint style="info" %}
 If you have any concerns or issues with your deployment, see [Snaps FAQ](https://docs.rocket.chat/deploy/prepare-for-your-deployment/rapid-deployment-methods/snaps/snap-faq).

@@ -1,5 +1,6 @@
 ---
 description: Requirements for Rocket.Chat Deployment
+if: isAlphaUser
 ---
 
 # System Requirements
