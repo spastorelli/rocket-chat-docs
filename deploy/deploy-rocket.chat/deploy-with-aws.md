@@ -1,6 +1,6 @@
 ---
 description: Deploying Rocket.Chat on Amazon Web Services
-if: isBetaUser && products.includes('azure')
+if: isBetaUser
 ---
 
 # Deploy with AWS
@@ -12,13 +12,17 @@ By leveraging Amazon Web Services (AWS) to deploy. Rocket.Chat on an EC2 instanc
 The minimum requirement to run Rocket.Chat successfully is 2Gb 2 cores. You need an active AWS account to proceed with the deployment.
 
 {% hint style="warning" %}
-&#x20;It is not recommended to use this method for large production. Instead, see how to deploy on [Kubernetes with Helm](https://docs.rocket.chat/deploy/prepare-for-your-deployment/rapid-deployment-methods/helm).
+It is not recommended to use this method for large production. Instead, see how to deploy on [Kubernetes with Helm](https://docs.rocket.chat/deploy/prepare-for-your-deployment/rapid-deployment-methods/helm).
 {% endhint %}
 
 In this guide, you'll learn how to:
 
 * Host Rocket.Chat on an EC2 instance with a domain name.
-* Secure your  Rocket.Chat server with a free SSL certificate from [Let's Encrypt](https://letsencrypt.org/).
+* Secure your Rocket.Chat server with a free SSL certificate from [Let's Encrypt](https://letsencrypt.org/).
+
+## Adding a new section
+
+Adding a new section to the deploy with AWS page. This is to test if other changes still works.
 
 ## Deploy Rocket.Chat on an EC2 instance
 
@@ -41,7 +45,7 @@ To create a new EC2 instance:
 
 Next, allocate an IP address to the EC2 instance. To allocate an elastic IP,
 
-* From the [EC2 Service](https://signin.aws.amazon.com/signin?redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fec2%2Fv2%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue\&client\_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fec2\&forceMobileApp=0\&code\_challenge=9eFrxS4u\_-ut1PIoNw1-Cx5EmHMwRGaqLYRat\_RnBGE\&code\_challenge\_method=SHA-256) dashboard, click **Elastic IPs.**
+* From the [EC2 Service](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fec2%2Fv2%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue\&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fec2\&forceMobileApp=0\&code_challenge=9eFrxS4u_-ut1PIoNw1-Cx5EmHMwRGaqLYRat_RnBGE\&code_challenge_method=SHA-256) dashboard, click **Elastic IPs.**
 * Click **Allocate Elastic IP address.**
 * Select **Amazon's pool of IPv4 addresses,** and click **Allocate.**
 * Click and open the newly created IP address and select **Associate Elastic IP address.**
