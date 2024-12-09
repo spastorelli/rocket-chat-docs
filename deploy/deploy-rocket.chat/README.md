@@ -1,3 +1,8 @@
+---
+if: isBetaUser && products.includes('azure')
+---
+
+
 # Deploy Rocket.Chat
 
 
