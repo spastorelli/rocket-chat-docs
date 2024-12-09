@@ -1,6 +1,6 @@
 ---
-description: Deploying Rocket.Chat on Amazon Web Services
-if: isBetaUser
+description: Deploying Rocket.Chat on AWS
+if: isBetaUser & products.includes('aws')
 ---
 
 # Deploy with AWS
