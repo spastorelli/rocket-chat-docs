@@ -1,7 +1,9 @@
 # Table of contents
 
 * [Rocket.Chat](README.md)
-  * [Our Plans](readme/our-plans.md)
+  * [Our Plans (product A)](readme/our-plans.md)
+  * [Our Plans (product B)](readme/our-plans-product-b.md)
+  * [Our Plans (product C)](readme/our-plans-product-c.md)
 
 ## Deploy
 
@@ -466,7 +468,7 @@
 
 ## Contribute to Rocket.Chat
 
-* [Contributor Code of Conduct](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/code\_of\_conduct)
+* [Contributor Code of Conduct](https://developer.rocket.chat/rocket.chat/contribute-to-rocket.chat/code_of_conduct)
 * [How Can I Help?](https://developer.rocket.chat/contribute-to-rocket.chat/ways-to-contribute)
 * [Annual Contribution Programs](contribute-to-rocket.chat/annual-contribution-programs.md)
 
