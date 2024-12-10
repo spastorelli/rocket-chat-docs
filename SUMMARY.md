@@ -4,7 +4,6 @@
   * [Our Plans (product A)](readme/our-plans.md)
   * [Our Plans (product B)](readme/our-plans-product-b.md)
   * [Our Plans (product C)](readme/our-plans-product-c.md)
-  * [Page 1](readme/page-1.md)
 
 ## Deploy
 

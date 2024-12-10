@@ -1,5 +1,6 @@
 ---
 description: Set up an Ansible environment for deploying Rocket.Chat to multiple servers.
+if: isBetaUser
 ---
 
 # Ansible
@@ -10,10 +11,10 @@ See the [Rocket.Chat official Ansible role](https://galaxy.ansible.com/RocketCha
 
 ## Installation
 
-Ansible works on a "push to clients" basis. Your control node pushes all the configuration/ad-hoc tasks out to your systems via SSH, with no client running on the systems you're deploying to! In order words, it's swift, efficient, secure, scalable, and highly portable. Therefore, to control remote systems, you only need to install Ansible on your control node (your desktop can be an excellent control node to deploy from). Ansible has&#x20;
+Ansible works on a "push to clients" basis. Your control node pushes all the configuration/ad-hoc tasks out to your systems via SSH, with no client running on the systems you're deploying to! In order words, it's swift, efficient, secure, scalable, and highly portable. Therefore, to control remote systems, you only need to install Ansible on your control node (your desktop can be an excellent control node to deploy from). Ansible has
 
 {% hint style="info" %}
-To learn more about Ansible installation on different operating systems, see the [official installation guide](https://docs.ansible.com/ansible/latest/installation\_guide/index.html).
+To learn more about Ansible installation on different operating systems, see the [official installation guide](https://docs.ansible.com/ansible/latest/installation_guide/index.html).
 {% endhint %}
 
 ### Installation via package manager
@@ -24,9 +25,9 @@ Ansible is likely available in your official package repositories if you're usin
 
 Ansible is written in Python, so it's only natural that it be available for installation via [`pip`](https://pypi.python.org/pypi). . If you have pip installed, run the following command:
 
-&#x20;`sudo pip install ansible`
+`sudo pip install ansible`
 
-If you do not have pip, check  if you can install `pip` through your system's package manager (look out for Python 2.7 version). If you're on Mac OS X and you're not using [Homebrew](http://brew.sh) or [pkgsrc](https://github.com/cmacrae/saveosx), you should be able to install `pip` using `easy_install` with this command:
+If you do not have pip, check if you can install `pip` through your system's package manager (look out for Python 2.7 version). If you're on Mac OS X and you're not using [Homebrew](http://brew.sh) or [pkgsrc](https://github.com/cmacrae/saveosx), you should be able to install `pip` using `easy_install` with this command:
 
 ```
 sudo easy_install pip 
@@ -60,10 +61,10 @@ cd ansible
 ansible $
 ```
 
-Next, create an inventory file in that directory. The inventory file is a simple formatted file containing a list of systems we want to connect to and control using Ansible. It can include single hosts, group hosts together, groups of groups, and set variables on a host or group basis.&#x20;
+Next, create an inventory file in that directory. The inventory file is a simple formatted file containing a list of systems we want to connect to and control using Ansible. It can include single hosts, group hosts together, groups of groups, and set variables on a host or group basis.
 
 {% hint style="info" %}
-&#x20;We recommend naming the directory `ansible` and the file `inventory` to maintain a proper naming convention.
+We recommend naming the directory `ansible` and the file `inventory` to maintain a proper naming convention.
 {% endhint %}
 
 ```
@@ -84,7 +85,7 @@ chat.my.domain
 talk.my.domain
 ```
 
-We recommend authenticating SSH connections to your server(s) using SSH key pairs. However, you can provide Ansible with the root user's password in the inventory file if you don't have SSH.&#x20;
+We recommend authenticating SSH connections to your server(s) using SSH key pairs. However, you can provide Ansible with the root user's password in the inventory file if you don't have SSH.
 
 {% hint style="danger" %}
 This should only be temporary because it is an insecure practice.
@@ -118,14 +119,14 @@ Then, create a `requirements.yml` file describing how we want to fetch the role 
 Run `ansible --version` to know your version of Ansible.
 {% endhint %}
 
-If you're running Ansible 1.9.4,  update `requirements.yml` with the following data:
+If you're running Ansible 1.9.4, update `requirements.yml` with the following data:
 
 ```yaml
 - src: RocketChat.Server
   version: master
 ```
 
-If you're running Ansible 2.0, update  `requirements.yml` with the following data:
+If you're running Ansible 2.0, update `requirements.yml` with the following data:
 
 ```yaml
   - src: RocketChat.Server
@@ -159,7 +160,7 @@ The `.yml` denotes a YAML document, which is what language you use to express mo
 touch rocket_chat.yml
 ```
 
-&#x20;Add the following information  to your `rocket_chat.yml` playbook:
+Add the following information to your `rocket_chat.yml` playbook:
 
 ```yaml
 ---
@@ -173,13 +174,13 @@ touch rocket_chat.yml
 
 ### Deploy Rocket.Chat using Ansible
 
-To run the playbook, use the `ansible-playbook` command,&#x20;
+To run the playbook, use the `ansible-playbook` command,
 
 ```
 ansible-playbook -i inventory rocket_chat.yml
 ```
 
-This command can be expressed as "run the `rocket_chat.yml` playbook with the inventory file `inventory`." When the deployment is successful, visit  `https://chat.my.domain` and the Rocket.Chat login screen appears.
+This command can be expressed as "run the `rocket_chat.yml` playbook with the inventory file `inventory`." When the deployment is successful, visit `https://chat.my.domain` and the Rocket.Chat login screen appears.
 
 {% hint style="info" %}
 See the [README](https://github.com/RocketChat/Rocket.Chat.Ansible/blob/master/README.md) to explore other Ansible role options.

@@ -1,3 +1,7 @@
+---
+if: isBetaUser
+---
+
 # Rocket.Chat
 
 In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
@@ -7,8 +11,6 @@ As of December 15, 2023, Rocket.Chat has ceased support for connections from clo
 {% endhint %}
 
 In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
-
-
 
 In a world where collaboration is the backbone of productivity, Rocket.Chat stands out as a secure and customizable open-source platform for all your communication needs. Whether you're a small team or a large enterprise, Rocket.Chat ensures you have full control over your data and conversations with robust privacy and seamless integration across devices and platforms.
 
