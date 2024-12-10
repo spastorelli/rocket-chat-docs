@@ -1,5 +1,5 @@
 ---
-if: isBetaUser && products.includes('product A')
+if: isBetaUser && products.includes('product B')
 ---
 
 # Our Plans (product B)
