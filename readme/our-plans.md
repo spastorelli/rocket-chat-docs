@@ -1,10 +1,11 @@
 ---
 description: Introducing our premium plans
+if: isBetaUser && products.includes('product D')
 ---
 
 # Our Plans
 
-As a leader in secure and compliant collaboration solutions, Rocket.Chat offers a range of plans to suit the diverse needs of its user base. Our plans are designed to provide optimal features and flexibility for individuals and small teams to large enterprises. This document details our [**Enterprise**](our-plans.md#enterprise-plan)  [**Pro**](our-plans.md#pro-plan), [**Starter**](our-plans.md#starter-plan), and [**Community**](our-plans.md#community) plans, helping you choose the best fit for your organization.
+As a leader in secure and compliant collaboration solutions, Rocket.Chat offers a range of plans to suit the diverse needs of its user base. Our plans are designed to provide optimal features and flexibility for individuals and small teams to large enterprises. This document details our [**Enterprise**](our-plans.md#enterprise-plan) [**Pro**](our-plans.md#pro-plan), [**Starter**](our-plans.md#starter-plan), and [**Community**](our-plans.md#community) plans, helping you choose the best fit for your organization.
 
 ## Enterprise Plan
 
@@ -25,7 +26,7 @@ The Rocket.Chat [**Enterprise Plan**](../setup-and-configure/trials/enterprise-t
 * **Large Enterprises**: Organizations requiring a robust, scalable, and compliant communication platform.
 * **High Compliance Industries**: Ideal for sectors with stringent regulatory requirements, such as finance, healthcare, and government.
 
-## Pro Plan&#x20;
+## Pro Plan
 
 Available from Rocket.Chat version 6.5 or higher Rocket.Chat [**Pro Plan**](../setup-and-configure/trials/pro-trial.md) is designed for growing organizations seeking to leverage enhanced features and support for expanding communication needs. This plan offers a robust platform with increased user capacity, extended monthly active contacts, and additional premium features. Ideal for businesses scaling their operations, the Pro Plan provides a perfect balance of advanced functionality and support, ensuring a seamless collaboration experience.
 
@@ -50,7 +51,7 @@ Your workspace will be automatically provisioned a free **Starter** plan license
 * **User Capacity**: Up to 25 users.
 * **Monthly Active Contacts**: Supports up to 100 omnichannel contacts.
 * **Premium Features**: Comprehensive access to premium features, including read receipts and multiple queues.
-* **Notifications & Apps**: Unlimited push notifications and a wide selection of [apps](../extend-rocket.chat-capabilities/rocket.chat-marketplace/).
+* **Notifications & Apps**: Unlimited push notifications and a wide selection of [apps](../extend-rocket.chat-capabilities/rocket.chat-marketplace).
 * **Channel Access**: Full access to all channels, including WhatsApp (omnichannel).
 * **Matrix Federation**: Complete [Matrix Federation](../use-rocket.chat/rocket.chat-federation.md) support.
 
@@ -62,7 +63,7 @@ Your workspace will be automatically provisioned a free **Starter** plan license
 
 ## **Community**
 
-Rocket.Chat **Community** is a free open-source solution, self-hosted version of the Rocket.Chat platform.&#x20;
+Rocket.Chat **Community** is a free open-source solution, self-hosted version of the Rocket.Chat platform.
 
 **Key features:**
 
