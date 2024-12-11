@@ -1,5 +1,5 @@
 ---
-if: isAlphaUser
+if: isBetaUser
 ---
 
 # Rocket.Chat
