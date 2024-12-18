@@ -1,5 +1,5 @@
 ---
-if: isBetaUser
+if: visitor.claims.isBetaUser
 ---
 
 # Rocket.Chat
