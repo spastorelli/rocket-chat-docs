@@ -18,31 +18,31 @@ Our public statement can also be found on [GitHub](https://github.com/RocketChat
 
 The following are some of the more recent GDPR updates that are now part of the core codebase:
 
-## Right of Access
+### Right of Access
 
 [#9767](https://github.com/RocketChat/Rocket.Chat/issues/9767) (implemented [#9906](https://github.com/RocketChat/Rocket.Chat/pull/9906))
 
-## Right to be forgotten/erased
+### Right to be forgotten/erased
 
 [#9766](https://github.com/RocketChat/Rocket.Chat/issues/9766) (implemented [#9947](https://github.com/RocketChat/Rocket.Chat/pull/9947))
 
-## Data Portability
+### Data Portability
 
 [#9768](https://github.com/RocketChat/Rocket.Chat/issues/9768) (implemented in [#9906](https://github.com/RocketChat/Rocket.Chat/pull/9906))
 
-## Other rights
+### Other rights
 
 Other rights for the data subjects are either covered by features already built into our codebase or outside the scope of the open source software project, including:
 
-### Right to Rectification
+#### Right to Rectification
 
 The codebase can be configured to support user modification/correction/rectification of any data supplied (entered) by the user.
 
-### Right to restriction of processing
+#### Right to restriction of processing
 
 This is outside the scope of the open source software project and is up to the controller (administrator/deployer/operator of the the server system) to enforce.
 
-### Right to Object
+#### Right to Object
 
 This is outside the scope of the open source software project and is up to the controller (administrator/deployer/operator of the server system) to enforce.
 

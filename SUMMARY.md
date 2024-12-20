@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Rocket.Chat](README.md)
+* [Welcome](README.md)
+* [Rocket.Chat](<README (1).md>)
   * [Our Plans](readme/our-plans.md)
 
 ## Deploy
@@ -42,7 +43,12 @@
       * [Galaxy](deploy/deploy-rocket.chat/additional-deployment-methods/unsupported-methods/galaxy.md)
       * [Syncloud](deploy/deploy-rocket.chat/additional-deployment-methods/unsupported-methods/syncloud.md)
       * [OpenShift](deploy/deploy-rocket.chat/additional-deployment-methods/unsupported-methods/openshift.md)
+* [Conditional sub page](deploy/conditional-sub-page.md)
 * [Deploy with Azure](deploy/deploy-with-azure.md)
+
+***
+
+* [Conditional page](conditional-page.md)
 
 ## Setup and Configure
 
