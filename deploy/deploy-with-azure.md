@@ -1,5 +1,5 @@
 ---
-if: isAlphaUser
+if: visitor.claims.isAlphaUser
 ---
 
 # Deploy with Azure
