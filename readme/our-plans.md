@@ -1,6 +1,6 @@
 ---
 description: Introducing our premium plans
-if: visitor.claims.isBetaUser && visitor.claims.products.includes('product F')
+if: visitor.claims.isBetaUser && visitor.claims.products.includes('product A')
 ---
 
 # Our Plans
