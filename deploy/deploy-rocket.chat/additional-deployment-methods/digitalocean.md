@@ -1,7 +1,7 @@
 ---
 if: >-
-  visitor.claims.products.includes('Digital Ocean') &&
-  visitor.claims.isAlphaUser === true
+  visitor.claims.products.includes('Digital Ocean') && visitor.claims.isBetaUser
+  === true
 ---
 
 # Deploy with Digital Ocean
