@@ -1,3 +1,9 @@
+---
+if: >-
+  visitor.claims.products.includes('Digital Ocean') && visitor.claims.isBetaUser
+  === true
+---
+
 # Deploy with Digital Ocean
 
 Rocket.Chat offers a seamless and user-friendly solution for setting up your own chat platform on Digital Ocean with just a single click. With the [1-Click install](https://marketplace.digitalocean.com/apps/rocket-chat?action=deploy\&refcode=1940fe28bd31) from the Digital Ocean marketplace, you can effortlessly launch and configure Rocket.Chat, empowering your team to communicate and collaborate efficiently.
@@ -7,7 +13,7 @@ Rocket.Chat offers a seamless and user-friendly solution for setting up your own
 Before you begin, make sure you have the following:
 
 * An active [Digital Ocean](https://www.digitalocean.com/) account
-* A domain name (optional).  You can use Digital Ocean's provided IP address, but having a domain name is recommended for a more professional setup to enable HTTPs.
+* A domain name (optional). You can use Digital Ocean's provided IP address, but having a domain name is recommended for a more professional setup to enable HTTPs.
 
 In this guide, you'll learn how to:
 
@@ -57,7 +63,7 @@ Behind the scenes, the image uses Docker to handle the deployment. See [deploy-w
 
 It's important to note that Rocket.Chat doesn't have HTTPS enabled by default, as SSL certificates are unique to each installation. However, activating HTTPS with Let's Encrypt certificates can easily be done following the next steps.
 
-To enable HTTPS,&#x20;
+To enable HTTPS,
 
 * Ensure the correct A record (optionally CNAME) is set for your domain going to your droplet IP.
 * Create a user account without root access using this command:
