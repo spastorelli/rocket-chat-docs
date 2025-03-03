@@ -1,10 +1,13 @@
 ---
 description: Deploy on a kubernetes cluster using our official helm chart.
+if: >-
+  visitor.claims.products.includes('Kuberbetes') && visitor.claims.isBetaUser
+  === true
 ---
 
 # Deploy with Kubernetes
 
-Using the [Helm](https://helm.sh/) package manager, the [helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps a Rocket.Chat deployment on a [Kubernetes](https://kubernetes.io/) cluster. It provisions a fully featured Rocket.Chat installation. Additionally, this chart supports the [scaling of Rocket.Chat](../scaling-rocket.chat/) for increased server capacity and high availability.
+Using the [Helm](https://helm.sh/) package manager, the [helm chart](https://github.com/RocketChat/helm-charts/tree/master/rocketchat) bootstraps a Rocket.Chat deployment on a [Kubernetes](https://kubernetes.io/) cluster. It provisions a fully featured Rocket.Chat installation. Additionally, this chart supports the [scaling of Rocket.Chat](../scaling-rocket.chat) for increased server capacity and high availability.
 
 ## Prerequisites Details
 
