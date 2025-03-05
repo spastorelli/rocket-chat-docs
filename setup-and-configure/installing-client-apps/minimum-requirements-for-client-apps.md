@@ -1,4 +1,8 @@
-# Minimum Requirements
+---
+if: visitor.claims.isAlpaUser === true
+---
+
+# Minimum Requirements for Client Apps
 
 If you’re curious about the technical requirements needed to run Rocket.Chat, read on to learn which operating systems (OS) and browsers we support.
 
