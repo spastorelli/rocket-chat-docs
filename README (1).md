@@ -1,5 +1,6 @@
 ---
-if: visitor.claims.isBetaUser
+if: visitor.claims.isBetaUser === true
+hidden: true
 ---
 
 # Rocket.Chat

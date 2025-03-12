@@ -8,6 +8,15 @@ if: visitor.claims.isAlphaUser
 
 Deploying Rocket.Chat on Azure involves several key steps to ensure a successful setup. Follow this guide to get started.
 
+
+
+```
+// Some code
+```
+
+```
+```
+
 ### Prerequisites
 
 * An active Azure account

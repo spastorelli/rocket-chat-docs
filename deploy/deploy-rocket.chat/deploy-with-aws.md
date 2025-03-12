@@ -1,6 +1,7 @@
 ---
 description: Deploying Rocket.Chat on AWS
-if: isBetaUser & products.includes('aws')
+if: visitor.claims.isBetaUser && visitor.claims.products.includes('aws')
+hidden: true
 ---
 
 # Deploy with AWS

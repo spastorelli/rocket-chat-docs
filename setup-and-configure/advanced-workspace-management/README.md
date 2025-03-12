@@ -1,3 +1,7 @@
+---
+if: visitor.claims.hello === true
+---
+
 # Advanced workspace management
 
 Rocket.Chat provides advanced workspace management features, offering a range of customizable functionalities to suit the unique needs of any workspace. From managing users and channels to integrating with third-party applications, the advanced workspace management features provide a robust framework for efficient team collaboration. The security offerings ensure that your communication remains safe, while platform enhancements improve the overall user experience.
